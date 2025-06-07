@@ -6,8 +6,8 @@ CLI tool for upscaling images using [Stable Diffusion x4 upscaler](https://huggi
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd upscale-offload
+   git clone https://github.com/nyanshell/upscale-offload-cli.git
+   cd upscale-offload-cli
    ```
 
 2. **Create and activate virtual environment:**
