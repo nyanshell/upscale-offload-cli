@@ -1,0 +1,16 @@
+# Generated from actual installed versions in .venv
+# Based on install history: pip install diffusers Pillow xformers torch transformers accelerate click dotenv
+
+# Core ML packages
+torch>=2.7.0
+diffusers>=0.33.1
+transformers>=4.52.4
+accelerate>=1.7.0
+xformers>=0.0.30
+
+# Image processing
+pillow>=11.2.1
+
+# CLI and utilities
+click>=8.2.1
+python-dotenv>=1.1.0

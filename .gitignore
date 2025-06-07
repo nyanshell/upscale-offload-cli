@@ -1,0 +1,116 @@
+# Environment and configuration
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Model files and weights
+*.bin
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+models/
+checkpoints/
+weights/
+
+# Image processing directories
+upscaled/
+output/
+results/
+processed/
+temp/
+tmp/
+
+# Common image output patterns
+upscaled_*
+*_upscaled.*
+*_processed.*
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large datasets
+dataset/
+datasets/
+data/
+
+# HuggingFace cache
+.cache/huggingface/
+
+# Torch cache
+.cache/torch/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Development tools
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Output directories (project specific)
+upsample/
